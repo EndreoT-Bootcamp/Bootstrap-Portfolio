@@ -1,6 +1,6 @@
 /* Global var */
 :root {
-    --porfolio-width: 150px;
+    /* --porfolio-width: 150px; */
 }
 
 body {
@@ -63,10 +63,6 @@ header {
 .nav-link-override {
     color: #777777;
 }
-/* li {
-    color: #777777;
-    
-} */
 
 .separator {
     padding: 8px 10px 8px 10px;
@@ -76,14 +72,6 @@ header {
 a:hover { 
     color: #4aaaa5; 
 }
-
-/* #no-right-padding {
-    padding-right: 0px;
-} */
-
-/* a {
-    text-decoration: none;
-} */
 /* End header and nav */
 
 
@@ -97,44 +85,21 @@ a:hover {
     padding: 20px;
 }
 
+.page-title-row {
+    height: 75px
+}
 #page-title {
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
-}
-
-
-/*
-section {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 10px;
-    margin: auto;
-    height: auto;
-    width: calc(var(--width) - 40px - 2px);
-    padding: 20px 20px 30px 20px;
-    border: 1px solid #dddddd;
-    background-color: #ffffff;
-}
-
-.section-title, h1 {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.horizontal-line {
-    border-top: 2px solid #cccccc;
-    width: 920px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0px;
 }
 /* End main content */
 
 /* Profile page */
 #profile-picture { 
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     transform: rotate(90deg);
 }
 /* End profile page */
@@ -196,15 +161,13 @@ button {
 .portfolio-img {
     position: relative;
     margin-bottom: 15px;
-    /* width: 150px;
-    height: 150px; */
+    width: 100%;
+    height: auto;
 }
 
 .img-label {
-    position: absolute;
-    left: 15px;
-    bottom: 15%;
-    width: var(--porfolio-width);
+    position: relative;
+    bottom: 35%;
     text-align: center;
     background-color: #4aaaa5;
     color:#ffffff;
