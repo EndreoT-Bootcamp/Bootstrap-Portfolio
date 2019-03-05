@@ -1,8 +1,3 @@
-/* Global var */
-:root {
-    /* --porfolio-width: 150px; */
-}
-
 body {
     background-image: url("../images/gravel.png");  
     padding-bottom: 50px;
@@ -35,31 +30,6 @@ header {
     padding: 0px
 }
 
-/* .header-content {
-    width: var(--width);
-    margin: auto;
-    height: 97px;
-    position: relative;
-    background: #ffffff;
-} */
-
-/* .profile-name {
-    margin: 0px;
-    float: left;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
-    position: absolute;
-} */
-
-/* nav {
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    margin: 0px;
-} */
-
 .nav-link-override {
     color: #777777;
 }
@@ -73,8 +43,6 @@ a:hover {
     color: #4aaaa5; 
 }
 /* End header and nav */
-
-
 
 /* Main content */
   #main-content {
@@ -94,13 +62,18 @@ a:hover {
     font-size: 2em;
     margin: 0px;
 }
+
+#bio, #contact-form {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 /* End main content */
 
 /* Profile page */
 #profile-picture { 
-    width: auto;
-    height: 100%;
-    transform: rotate(90deg);
+    width: 100%;
+    height: auto;
 }
 /* End profile page */
 
@@ -110,53 +83,9 @@ a:hover {
     background-color: #4aaaa5;
 }
 
-/* #contact-form {
-    padding-bottom: 15px;
-} */
-/* input, textarea {
-    border: 1px solid #cccccc;
-    width: 910px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-
-textarea {
-    max-width: 910px;
-    max-height: 240px;
-}
-
-button {
-    background-color: #4aaaa5;
-    padding: 10px 20px 10px 20px;
-    color: #ffffff;
-} */ 
-/* End contact page */
-
-/* Portfolio */
-.row-override {
-    /* margin-bottom: 15px; */
-}
-
 .overlay-override {
     padding: 0px;
 }
-
-
-
-/* .row {
-    height: 150px;
-    margin-bottom: 30px;
-}
-
-#last-row {
-    margin-bottom: 0px;
-}
-
-.img:nth-child(2) {
-    left :170px;
-    bottom: 150px;
-} */
 
 .portfolio-img {
     position: relative;
@@ -187,7 +116,6 @@ button {
     bottom: 0px;
     width: 100%;
     height: 40px;
-    /* height: 100px; */
     background-color: #666666;
     color:#ffffff;
 }
@@ -195,6 +123,5 @@ button {
 #copyright {
     color: rgb(179, 179, 179);
     font-size: 10px;
-    /* padding: 5px; */
 } 
 /* End footer */
